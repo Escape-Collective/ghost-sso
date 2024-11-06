@@ -20,7 +20,7 @@ The final URL should look like this:
 
 After a successful login the user will be redirect to `https://classifieds.escapecollective.com`
 
-<iframe src="https://drive.google.com/file/d/1fXij7BZyKlObtvVPFTMsEbt7ltQIsy3K/preview" width="640" height="480" allow="autoplay"></iframe>
+![Google Drive Image](https://drive.google.com/uc?export=view&id=1fXij7BZyKlObtvVPFTMsEbt7ltQIsy3K)
 
 ## Step 2
 After registration or login on the Ghost site, the user will be redirected back to the original site (the one specified in the `r` parameter) with a `jwt` parameter in the URL.
@@ -31,7 +31,7 @@ For example:
 
 JWT looks like this:
 
-<iframe src="https://drive.google.com/file/d/1ajSQZJ5cpueKx03K1lhoXR-yQeM13uW0/preview" width="640" height="480" allow="autoplay"></iframe>
+![Google Drive Image](https://drive.google.com/uc?export=view&id=1ajSQZJ5cpueKx03K1lhoXR-yQeM13uW0)
 
 ## Step 3
 Next, you need to verify the token on your end using the public key available at the following link:
