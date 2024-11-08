@@ -11,12 +11,12 @@ The SSO login process will work as follows:
 
 ## Step 1
 You need to set up a redirect after the user clicks the "Login" button to the following URL:
-`https://staging.escapecollective.com/sso/#/portal/signup/free`
+`https://staging.escapecollective.com/sso/#/portal/account`
 
 Additionally, make sure to include the `r` parameter with the URL to which the user should be redirected after a successful login.
 
 The final URL should look like this:
-`https://staging.escapecollective.com/sso/?r=https://classifieds.escapecollective.com/#/portal/signup/free`
+`https://staging.escapecollective.com/sso/?r=https://classifieds.escapecollective.com/#/portal/account`
 
 After a successful login the user will be redirect to `https://classifieds.escapecollective.com`
 
