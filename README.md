@@ -88,7 +88,7 @@ You need to make a request to the following endpoint:
 Make sure to use the `filter` parameter with the email you received from the JWT token (found in the `sub` field).
 
 For example for email `d.a.doroshchuk@gmail.com`:
-`https://staging.escapecollective.com/ghost/api/admin/members/?filter=email:d.a.doroshchuk@gmail.com`
+`https://staging.escapecollective.com/ghost/api/admin/members/?filter=email:'d.a.doroshchuk@gmail.com'`
 
 Standard authorization via token (`Ghost {{admin_jwt_token}}`) is used to authorization to the API
 
