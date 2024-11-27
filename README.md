@@ -79,8 +79,6 @@ For example PHP code:
 ## Step 4
 After successfully verifying the token, you can proceed to log the user into your application. The `sub` field contains the email address of the authenticated user.
 
-The Classifieds site is built with WordPress, which doesn’t support SSO login by default. To enable it, I used a third-party plugin, [Simple JWT Login](https://wordpress.org/plugins/simple-jwt-login/), and created a new token for authentication after verifying the JWT token from the Ghost site.
-
 ## Step 5
 If you need other fields than email, you can use [Ghost Admin API](https://ghost.org/docs/admin-api/) to get subscription data and user name.
 You need to make a request to the following endpoint:
