@@ -237,3 +237,15 @@ The result of this query, if all is true, will return the user's data by email, 
       },  
       "newsletters": []  
     }
+    
+## Step 6
+For Logout:
+You need to set up a redirect after the user clicks the "Logout" button to the following URL:
+`https://staging.escapecollective.com/sso/?action=logout`
+
+Additionally, make sure to include the `r` parameter with the URL to which the user should be redirected after a successful logout.
+
+The final URL should look like this:
+`https://staging.escapecollective.com/sso/?action=logout&r=https://classifieds.escapecollective.com/account/logout`
+
+After a successful logout the user will be redirect to `https://classifieds.escapecollective.com/account/logout`
